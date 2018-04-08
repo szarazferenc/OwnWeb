@@ -1,0 +1,114 @@
+{
+	"lifeevents" : {
+		"event" : [
+			{
+			    "id"          : "1",
+				"title"       : "My first computer - <span>1987</span>",
+				"date"        : "1987/12/24 18:00:00",
+				"description" : "Commodore C64! The first meeting of personal computer and the mysterious BASIC programming language."
+			},
+			{
+			    "id"          : "2",
+				"title"       : "Bicycling ever - <span>1993</span>",
+				"date"        : "1993/07/10 00:00:00",
+				"description" : "I bought my old BCA montainbike."
+			},
+			{
+			    "id"          : "3",
+				"title"       : "Little detour in my life - <span>1995</span>",
+				"date"        : "1995/07/01 00:00:00",
+				"description" : "In 1995 I tried it, how can I cook a meal :) ..."
+			},
+			{
+			    "id"          : "4",
+				"title"       : "Personal Computer? PC!? - <span>1997</span>",
+				"date"        : "1997/06/01 00:00:00",
+				"description" : "I bought my first IBM PC. It was a i386SX PC. It worked on 40 MHz and it had 8MB RAM and 60MB HDD. It was a fantastic computer"
+			},
+			{
+			    "id"          : "5",
+				"title"       : "My lovely Peugeot 205 - <span>1999</span>",
+				"date"        : "1999/07/01 10:00:00",
+				"description" : "Arriving my favorite and beautiful vintage car.<br />Peugeot 205 XR<br />Year:1984<br />Engine capacity: 1124ccm, 37kW/50HP.<br />I love it! :)"
+			},
+			{
+			    "id"          : "6",
+				"title"       : "Career in the Army? NO! - <span>1999</span>",
+				"date"        : "1999/08/24 10:00:00",
+				"description" : "I joined to the line infantry, it was a selective service and 9 months waste of my life."
+			},
+			{
+			    "id"          : "7",
+				"title"       : "Peugeot 205 Club Hungary - <span>2001</span>",
+				"date"        : "2001/06/01 00:00:00",
+				"description" : "I joined to the club and I did lots of thing for the club. I wrote the old forum app and I organize lots of club meeting for about 300 people."
+			},
+			{
+			    "id"          : "8",
+				"title"       : "The first attempt on abroad - <span>2005</span>",
+				"date"        : "2005/09/10 00:00:00",
+				"description" : "A few friends and I lived in Glasgow, England for three months. We have worked and we did lot of fun and learned English. (hahaha :) )"
+			},
+			{
+			    "id"          : "9",
+				"title"       : "University & Work - <span>2007</span>",
+				"date"        : "2006/07/13 00:00:00",
+				"description" : "Early years for about 2006... maybe... I have been worked lot of IT project in Szeged, Hungary when I was a student on the University of Szeged. I love this city! I created some webpage, and I wrote thousand lines in PHP and Javascript and SQL of course. I built six module to Neredis CMS."
+			},
+			{
+			    "id"          : "10",
+				"title"       : "EV-Sport Autósport Magyarország - <span>2006</span>",
+				"date"        : "2006/12/01 00:00:00",
+				"description" : "I joined to the EV-Sport, we build an electric Fiat 126. I organized the nonprofit organization marketing and social activities."
+			},
+			{
+			    "id"          : "11",
+				"title"       : "Graduated from University - <span>2002 - 2007</span>",
+				"date"        : "2007/07/01 00:00:00",
+				"description" : "Unforgettable years in my life :) Pretty girls, big parties (and lots of learning :( )"
+			},
+			{
+			    "id"          : "12",
+				"title"       : "First freelancer job - <span>2007</span>",
+				"date"        : "2007/07/02 00:00:00",
+				"description" : "After the university, I worked as a team member in different IT teams. I drew lots of flowchart and made some diagramms and document, I organized and planned the lifecycles of the project. I visited the customers and sometimes I tried to reading in the CIO's brain. I love this period of my life, because I was really free and I did what I want in my freetime. But once everything went wrong, because couple of the team members left the project and looked for new challenges in England and Ireland."
+			},
+			{
+			    "id"          : "13",
+				"title"       : "Started to work in the Bank - <span>2008</span>",
+				"date"        : "2007/12/03 08:00:00",
+				"description" : "In 2007 I decided that I started a new life. I found a new challanges in the banking sector in Budapest, Hungary. I started working for the FHB Commercial Bank Ltd. as a junior e-channel manager in the E-channel department. In this year started a new IT project: Internet Banking System for the retail customers. WOW! Two days later I was a second man in the business side of the project. We worked a lot and did some research, mockup, BR and scopes, war with the Developers and the budget :), test and go live procedures. However we enjoy it and laught a lot. Three week before the deadline the application went online with the minimal features and we was very proud of the Internet Banking system. In the end of 2007 it was the best Internet banking application in Hungary (I think)."
+			},
+			{
+			    "id"          : "14",
+				"title"       : "In the Bank ... - <span>2010</span>",
+				"date"        : "2010/06/1 00:00:00",
+				"description" : "In the bank I did some little, bigger and large project in this company, we build new front-end application, started new SMS based notification system, Internet Banking System for the corporate customers with intelligent token tools ...etc."
+			},
+			{
+			    "id"          : "15",
+				"title"       : "Allianz Bank migration process - <span>2011</span>",
+				"date"        : "2011/04/03 00:00:00",
+				"description" : "In 2011 I was a leader of the Allianz Bank Hungary migration process corporate banking system side and paralel I was a Deputy Head of Online channel Department. It was stressfull and busy period in my life."
+			},
+			{
+			    "id"          : "16",
+				"title"       : "Back to the UK - <span>2012</span>",
+				"date"        : "2012/04/15 00:00:00",
+				"description" : "In 2012 I would like to do something else, new challanges. I left my comfortable job and tried to find my place in the life. One of my friend who works in England called me to help his task in Cardiff, England in a project company. I thought it sounds good and I started to organize my working place change and I started my own business. <br />I worked six month in Ireland and four in England, I did some variable task and also I was project manager in IT project. I had the opportunity to show my creative brain and chance that thinking outside the box.<br />"
+			},
+			{
+			    "id"          : "17",
+				"title"       : "Last day in Cardiff - <span>2013</span>",
+				"date"        : "2013/02/28 00:00:00",
+				"description" : "In the end I left this lifestyle and place. I moved back to Hungary. Why? Because I love the Hungarian peoples, because I love the delicious food, because I love the seasons and it lacked both. I would like to work in Hungary."
+			},						
+			{
+			    "id"          : "18",
+				"title"       : "Travel style - <span>2013</span>",
+				"date"        : "2013/06/01 00:00:00",
+				"description" : "In June 2013, I grab a backpack and my laptop and I tried to travel around Europe :)."
+			}							
+		]
+	}
+}

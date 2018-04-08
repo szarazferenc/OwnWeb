@@ -1,0 +1,82 @@
+/* - DOCUMENT INFORMATION
+------------------------------------------------- 
+	Website Name: SzĂĄraz Ferenc personal page	
+	Website URL: http://szarazferenc.hu
+	Author: SzĂĄraz Ferenc
+	Author URI: http://szarazferenc.hu
+	Version: 1.0
+/*
+
+/* */
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300,800,700italic,800italic,600italic,600,300italic);
+
+@import url(core.css);
+
+html,body{background:rgb(50,50,50);font-size:13px;font-family: 'Open Sans',sans-serif;color:#999999;margin:0 auto 0 auto;height:100%;}
+#debugwindow{background:#FFF999;text-align:left;color:rgb(153,153,153);}
+a{text-decoration:none;color:#999999;}
+#main_page_container{height:100%;width:100%;}
+#main_header{width:100%;height:160px;background-color:rgba(60,60,60,0.9);}
+#main_logo{float:left;margin:20px 0 0 40px;}
+#main_available{float:right;margin:20px 30px 0 0;}
+#main_body{height:auto;margin-top:160px;}
+#main_body_content{height:auto;margin:25px 0 0 0;}
+#main_body_banner{width:820px;height:296px;margin:-140px auto 0 auto;z-index:1;}
+#main_body_text{margin:0 auto;width:820px;}
+#main_textarea{width:100%;margin:20px 0 0 0;}
+#main_textarea td{width:33.3%;vertical-align:text-top;}
+.main_textarea_head{font-size:16px;font-style:italic;font-weight:bolder;margin:0 0 6px 0;padding:0 0 0 18px;color:rgb(64,104,154);}
+.main_textarea_text_left{vertical-align:text-top;font-size:13px;text-align:justify;text-justify:distribute;}
+.main_textarea_text_center{vertical-align:text-top;font-size:13px;text-align:justify;text-justify:distribute;padding-left:15px;padding-right:15px;}
+.main_textarea_text_right{vertical-align:text-top;font-size:13px;text-align:justify;text-justify:distribute;}
+#main_body_passkey_text{margin:10px auto 0 auto;text-align:center;font-size:16px;}
+.main_body_passkey_input{background-color:rgb(89,89,89);width:300px;height:40px;font-size:22px;text-align:center;color:rgba(204,204,204,0.7);border:#595959 1px solid;border-radius:6px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:20px auto 0 auto;}
+#main_footer{width:100%;margin-top:-50px;height:50px;}
+#main_footer_table{width:100%;height:100%;background-color:#1C1C1C;font-size:x-small;border-top:#3E3E3E 1px solid;}
+#main_footer_contact{text-align:left;cursor:pointer;margin:6px 0 0 20px;vertical-align:middle;}
+#main_footer_contact .title{font-size:12px;}
+#main_footer_copyright{text-align:center;}
+#contact_box{display:none;position:absolute;left:5px;bottom:48px;padding:10px;border:1px solid Black;background-color:#D6D6D6;filter:alpha(opacity= 80);opacity:0.8;-moz-opacity:0.8;width:450px;height:300px;font-size:13px;}
+.contact_box_head{text-align:left;font-size:16px;font-style:italic;font-weight:bold;padding-bottom:10px;padding-top:10px;padding-left:18px;color:#40689a;}
+#contact_box_space{width:100%;height:1px;}
+.contact_in{font-size:12px;color:rgb(50,50,50);width:100%;height:30px;background:#FFFFFF;border:#E2E2E2 1px solid;border-radius:3px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:4px 0 4px 6px;text-align:left;-moz-appearance:input;-webkit-appearance:input;}
+.contact_text{font-size:12px;color:rgb(50,50,50);width:100%;height:130px;background:#FFFFFF;border:#E2E2E2 1px solid;border-radius:3px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:4px 6px 4px 6px;-moz-appearance:textfield-multiline;-webkit-appearance:textarea;overflow:scroll;text-align:left;}
+.contact_btn{margin:0 auto;padding:6px;width:100%;height:30px;background-color:rgb(153,153,153);border:#E2E2E2 1px solid;border-radius:3px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:pointer;color:#F1F1F1;font-size:18px;text-align:center;padding:2px 0;}
+#cfsuccess{display:none;}
+#cffail{display:none;}
+#main_footer_productivitystat{float:right;margin:10px 120px 0 0;overflow:hidden;}
+#main_footer_productivitystat div{display:none;position:absolute;}
+#main_footer_productivitystat .counter{font-size:18px;vertical-align:middle;margin-left:10px;}
+#main_footer_productivitystat .title{font-size:12px;vertical-align:middle;}
+#main_footer_productivitystat img{vertical-align:middle;}
+#unreg_page_container{height:100%;width:100%;}
+#unreg_header{width:100%;height:160px;background-color:rgba(60,60,60,0.9);}
+#unreg_body{height:auto;margin-top:160px;}
+#unreg_body_content{height:auto;margin:25px 0 0 0;}
+#unregistred_notice{display:block;margin:0 auto 0 auto;font-size:32px;line-height:40px;text-align:center;}
+#unreg_footer{width:100%;margin-top:-50px;height:50px;}
+.unreg_passkey_input{background-color:rgb(89,89,89);width:300px;height:40px;font-size:22px;text-align:center;color:rgba(204,204,204,0.7);border:#595959 1px solid;border-radius:6px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:20px 0 20px 0;}
+#unreg_yellow{font-style:italic;color:rgb(240,183,67);text-align:center;}
+#unreg_singup{margin:20px auto 20px auto;padding:6px;width:150px;height:60px;background-color:rgb(153,153,153);border:#595959 1px solid;border-radius:6px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:pointer;color:#F1F1F1}
+#unreg_goback{margin:20px auto 0 auto;cursor:pointer;}
+#singupform{display:none;width:60%;margin:0 auto;font-size:32px;text-align:center;}
+.singup_form_input{font-size:14px;color:rgb(50,50,50);width:100%;height:30px;background:#E2E2E2;border:#E2E2E2 1px solid;border-radius:2px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:4px 0 4px 6px;text-align:left;-moz-appearance:input;-webkit-appearance:input;}
+.singup_form_textarea{font-size:14px;color:rgb(50,50,50);width:100%;height:170px;background:#E2E2E2;border:#E2E2E2 1px solid;border-radius:2px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding:4px 6px 4px 6px;-moz-appearance:textfield-multiline;-webkit-appearance:textarea;overflow:scroll;text-align:left;}
+#unreg_submit{margin:20px auto 0 auto;padding:6px;width:150px;height:60px;background-color:rgb(153,153,153);border:#595959 1px solid;border-radius:6px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:pointer;color:#F1F1F1;font-size:32px;text-align:center;}
+#unreg_form_text{text-align:center;font-size:14px;margin:20px 0 0 0;}
+#sfwait{display:none;position:absolute;left:15%;background-color:#363636;z-index:99;width:70%;height:30%;margin:0 auto 0 auto;padding:20px 20px;border-radius:6px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;filter:alpha(opacity= 99);opacity:0.99;-moz-opacity:0.99;font-size:32px;text-align:center;}
+#sfsuccess{display:none;font-size:32px;text-align:center;margin:20px auto 0 auto;}
+#sffail{display:none;font-size:32px;text-align:center;margin:20px auto 0 auto;}
+@media print{*{background:transparent !important;color:black !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important;}/* Black prints faster: sanbeiji.com/archives/953 */
+a,a:visited{color:#444 !important;text-decoration:underline;}
+a [href ]:after{content: "( "attr(href) ") ";}
+abbr [title ]:after{content: "( "attr(title) ") ";}
+.ir a:after,a [href^= "javascript: " ]:after,a [href^= "# " ]:after{content: " ";}/* Don't show links for images, or javascript/internal links */
+pre,blockquote{border:1px solid #999;page-break-inside:avoid;}
+thead{display:table-header-group;}/* css-discuss.incutio.com/wiki/Printing_Tables */
+tr,img{page-break-inside:avoid;}
+@page{margin:0.5cm;}
+p,h2,h3{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}}
